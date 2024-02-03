@@ -1,3 +1,12 @@
+<h1>Build Steps</h1>
+<ul>
+  <li>git clone https://github.com/bshashank-03/Efficient-Traffic-Management-Simulation-with-thread-synchronization.git</li>
+  <li>cd Efficient-Traffic-Management-Simulation-with-thread-synchronization</li>
+  <li>make</li>
+  <li>./TrafficSignalManager</li>
+  <li>To close the application, you'll need to interrupt the execution of the program. One way to do this is to press Ctrl + C in the terminal where the program is running.</li>
+</ul>
+
 # Efficient-Traffic-Management-Simulation-with-thread-synchronization
 <p>I modelled a typical traffic scenario in this project, where a flag person is guiding traffic and one lane is closed. There is construction going on on one side of the road, thus all east and westbound traffic must synchronise to go through the area without causing a traffic block or accident.</p>
 <p>To effectively coordinate threads, this simulation makes use of synchronisation techniques including semaphores, mutexes, and condition variables. It prevents potential race conditions by safeguarding shared data structures with mutexes and ensures proper car generation through a semaphore-based mechanism. In this project we have also employed a condition variable to manage the flag person's state and utilises proper sleep functions for delay. So basically The project's strengths lie in its effective synchronisation implementation, ensuring thread safety, controlled car production, and flag person coordination. Overall, the project showcases a valuable application of synchronisation techniques in a real-world traffic management scenario.</p>
